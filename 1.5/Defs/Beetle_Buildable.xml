@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <Vehicles.VehicleBuildDef ParentName="RT_BaseVehicleBuild">
+            <defName>RimBeetle_Blueprint</defName>
+            <label>Beetle</label>
+            <description>A nice beetle to drive</description>
+            <graphicData>
+                <texPath>Vehicles/Beetle/Beetle</texPath>
+                <drawSize>(3,5)</drawSize>
+            </graphicData>
+            <statBases>
+                <MaxHitPoints>500</MaxHitPoints>
+                <WorkToBuild>8000</WorkToBuild>
+                <Flammability>0.05</Flammability>
+            </statBases>
+            <size>(2,4)</size>
+            <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+            <costList>
+                <EngineMedium>1</EngineMedium>
+                <ComponentFuelTank>1</ComponentFuelTank>
+                <ComponentTransmission>1</ComponentTransmission>
+                <ComponentWheelRoad>4</ComponentWheelRoad>
+                <ComponentIndustrial>10</ComponentIndustrial>
+                <Steel>240</Steel>
+            </costList>
+            <thingToSpawn>RimBeetle</thingToSpawn>
+        </Vehicles.VehicleBuildDef>
+    </Defs>
+
+
+            
