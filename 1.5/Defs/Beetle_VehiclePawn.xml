@@ -55,7 +55,7 @@
                 </li>
                 <li>
                     <key>passenger</key>
-                    <label>passenger</label>
+                    <label>Passenger</label>
                     <slots>3</slots>
                     <hitbox>
                         <cells>
