@@ -24,31 +24,6 @@
             <CargoCapacity>150</CargoCapacity>
             <RepairRate>0.75</RepairRate>
         </vehicleStats>
-        <soundOneShotsOnEvent Inherit = "False">
-			<li>
-				<key>PawnEntered</key>
-				<value>VVE_VehicleEnter</value>
-			</li>
-			<li>
-				<key>PawnExited</key>
-				<value>VVE_VehicleEnter</value>
-			</li>
-			<li>
-				<key>IgnitionOn</key>
-				<value>RT_BMPVehicleStart</value>
-			</li>
-			<li>
-				<key>IgnitionOff</key>
-				<value>RT_BMPVehicleStop</value>
-			</li>
-		</soundOneShotsOnEvent>
-		<soundSustainersOnEvent Inherit="false"> 
-			<li>
-				<start>IgnitionOn</start>
-				<stop>IgnitionOff</stop>
-				<value>RT_BMPVehicleEngine</value>
-			</li>
-		</soundSustainersOnEvent>
         <race>
             <baseBodySize>3.5</baseBodySize>
         </race>
@@ -378,5 +353,3 @@
         </comps>
     </Vehicles.VehicleDef>
 </Defs>
-
-
