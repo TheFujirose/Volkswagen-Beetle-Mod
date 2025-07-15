@@ -4,8 +4,8 @@
             <defName>RimBeetle_Blueprint</defName>
             <label>Beetle</label>
             <description>A blueprint for the Beetle; A road vehicle. It's suited for flat, terrain that operates well in various conditions due a modern redesign.
-            It's relatively fast, but with poor cargo capacity due to the small trunk. Due to it's smaller frame 
-            it's a cheaper reliable alterative.</description>
+                It's relatively fast, but with poor cargo capacity due to the small trunk. Due to it's smaller frame 
+                it's a cheaper reliable alterative.</description>
             <graphicData>
                 <texPath>Vehicles/Beetle/Beetle</texPath>
                 <drawSize>(3,4)</drawSize>
