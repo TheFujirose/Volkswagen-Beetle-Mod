@@ -12,3 +12,4 @@ Inspired on the concepts of the original 1970 and the 2019 Volkswagen Beetle thi
 * Modified the cost in steel to be less
 * Update descriptions
 * construction skill prereq set to 5 (originally 6)
+* changed position of chem tank, gearbox, and other parts.
