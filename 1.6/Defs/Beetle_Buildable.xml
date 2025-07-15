@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <Vehicles.VehicleBuildDef ParentName="RT_BaseVehicleBuild">
+            <defName>RimBeetle_Blueprint</defName>
+            <label>Beetle</label>
+            <description>A blueprint for the Beetle; A road vehicle. It's suited for flat, terrain that operates well in various conditions due a modern redesign.
+                It's relatively fast, but with poor cargo capacity due to the small trunk. Due to it's smaller frame 
+                it's a cheaper reliable alterative.</description>
+            <graphicData>
+                <texPath>Vehicles/Beetle/Beetle</texPath>
+                <drawSize>(3,4)</drawSize>
+            </graphicData>
+            <statBases>
+                <MaxHitPoints>500</MaxHitPoints>
+                <WorkToBuild>8000</WorkToBuild>
+                <Flammability>0.05</Flammability>
+            </statBases>
+            <size>(2,3)</size>
+            <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+            <costList>
+                <EngineMedium>1</EngineMedium>
+                <ComponentFuelTank>1</ComponentFuelTank>
+                <ComponentTransmission>1</ComponentTransmission>
+                <ComponentWheelRoad>4</ComponentWheelRoad>
+                <ComponentIndustrial>5</ComponentIndustrial>
+                <Steel>140</Steel>
+            </costList>
+            <thingToSpawn>RimBeetle</thingToSpawn>
+        </Vehicles.VehicleBuildDef>
+    </Defs>
+
+
+            
